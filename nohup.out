@@ -1,0 +1,1641 @@
+
+██╗  ██╗██╗  ██╗███████╗██╗   ██╗
+╚██╗██╔╝██║ ██╔╝██╔════╝╚██╗ ██╔╝
+ ╚███╔╝ █████╔╝ █████╗   ╚████╔╝
+ ██╔██╗ ██╔═██╗ ██╔══╝    ╚██╔╝
+██╔╝ ██╗██║  ██╗███████╗   ██║
+╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝
+  ███████╗███╗   ██╗ █████╗ ██╗██╗
+  ██╔════╝████╗  ██║██╔══██╗██║██║
+  ███████╗██╔██╗ ██║███████║██║██║
+  ╚════██║██║╚██╗██║██╔══██║██║██║
+  ███████║██║ ╚████║██║  ██║██║███████╗
+  ╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝╚══════╝
+                             v0.3.0
+
+No keyboard devices specified via (--devices) option.
+xkeysnail picks up keyboard-ish devices from the list below:
+
+--------------------------------------------------------------------------------------
+Device               Name                                Phys
+--------------------------------------------------------------------------------------
+/dev/input/event0    Power Button                        PNP0C0C/button/input0
+/dev/input/event1    Sleep Button                        PNP0C0E/button/input0
+/dev/input/event2    Lid Switch                          PNP0C0D/button/input0
+/dev/input/event3    Power Button                        LNXPWRBN/button/input0
+/dev/input/event4    AT Translated Set 2 keyboard        isa0060/serio0/input0
+/dev/input/event5    Logitech MX Master 2S               usb-0000:00:1a.0-1.2/input2:1
+/dev/input/event6    Ideapad extra buttons               ideapad/input0
+/dev/input/event7    Video Bus                           LNXVIDEO/video/input0
+/dev/input/event8    Video Bus                           LNXVIDEO/video/input0
+/dev/input/event9    Lenovo EasyCamera: Lenovo EasyC     usb-0000:00:1d.0-1.6/button
+/dev/input/event10   HDA Intel PCH Mic                   ALSA
+/dev/input/event11   HDA Intel PCH Headphone             ALSA
+/dev/input/event12   HDA Intel PCH HDMI/DP,pcm=3         ALSA
+/dev/input/event13   Convertible 2 TKL Keyboard          e0:06:e6:c0:25:c8
+/dev/input/event14   Convertible 2 TKL Consumer Control  e0:06:e6:c0:25:c8
+/dev/input/event15   Convertible 2 TKL System Control    e0:06:e6:c0:25:c8
+/dev/input/event16   py-evdev-uinput                     py-evdev-uinput
+
+Okay, now enable remapping on the following device(s):
+
+------------------------------------------------------------------------------
+Device               Name                                Phys
+------------------------------------------------------------------------------
+/dev/input/event4    AT Translated Set 2 keyboard        isa0060/serio0/input0
+/dev/input/event13   Convertible 2 TKL Keyboard          e0:06:e6:c0:25:c8
+
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-Q
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-RC-T
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+K
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+COMPOSE
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RC-DOWN
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RSuper-RC-DOWN
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RSuper-RC-UP
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RSuper-RC-DOWN
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RSuper-RC-DOWN
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RSuper-RC-UP
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+RSuper-RC-UP
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-G
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-COMMA
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-M
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-M
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-RC-F
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RM-F8
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LM-LEFT
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-LEFT
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RIGHT
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-LEFT
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RC-H
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RC-J
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RC-K
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RC-K
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RC-L
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+RSuper-RC-L
+WM_CLASS 'Code' | active keymaps = [Anonymous keymap]
+LC-Q
+WM_CLASS 'Gnome-control-center' | active keymaps = [Anonymous keymap]
+LC-Q
+WM_CLASS 'Gedit' | active keymaps = [Anonymous keymap]
+LC-Q
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+F
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-RC-Y
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-RC-T
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Gnome-terminal' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Update-manager' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Update-manager' | active keymaps = [Anonymous keymap]
+P
+WM_CLASS 'Update-manager' | active keymaps = [Anonymous keymap]
+T
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-R
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_3
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_3
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LM-D
+WM_CLASS '' | active keymaps = [Anonymous keymap]
+RShift-DELETE
+WM_CLASS '' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS '' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-R
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+DOWN
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_3
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+C
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Y
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_4
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_5
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_6
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+COMMA
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+C
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+DOWN
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+EQUAL
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+C
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+M
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+B
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+M
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+B
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+UP
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+UP
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-V
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+T
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+T
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+T
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+T
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RC-E
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+DOT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LM-BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LM-INSERT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Y
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+R
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Z
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+TAB
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Y
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+R
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Z
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Y
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+R
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Z
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+B
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+L
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RIGHT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RIGHT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RIGHT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RIGHT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RIGHT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RIGHT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+Y
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+KEY_5
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+P
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+C
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+K
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+J
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+P
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+Z
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-F
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+X
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+ESC
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_4
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_7
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_7
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_4
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_8
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_7
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_3
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+RShift-KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Q
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+Q
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+DOT
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+C
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+M
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_8
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_8
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_0
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_7
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_0
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_5
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_0
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+W
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+H
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+M
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+A
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+P
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+P
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+L
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+P
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+B
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+E
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+S
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+U
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+BACKSPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+O
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+D
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+I
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+N
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+G
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+SPACE
+WM_CLASS 'uTools' | active keymaps = [Anonymous keymap]
+ENTER
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-W
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_4
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_0
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_1
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_9
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_2
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+KEY_8
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
+WM_CLASS 'Google-chrome' | active keymaps = [Anonymous keymap]
+LC-LM-RC-SPACE
