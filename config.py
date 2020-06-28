@@ -32,7 +32,7 @@ define_keymap(None, {
     # Backspace
     K('LAlt-BACKSPACE'): with_mark(K('LC-BACKSPACE')),
     K('LC-BACKSPACE'): [K('Shift-home'), K('Shift-home'), K('BACKSPACE'), set_mark(False)],
-    K('LC-RC-t'): K('LC-LAlt-t'),
     # windows
-    K('LC-RC-f'): K('LC-LAlt-f'),
+    K('LC-RC-t'): K('LC-LAlt-t'),
+    K('LC-RC-a'): K('LC-LAlt-a'),
 })
